@@ -1,0 +1,124 @@
+body{
+    background-color: #f2f2f2;
+}
+
+#content{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#content h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    color: #212a3f;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#content p{
+    text-align: left;
+    margin: 0 auto;
+    width: 415px;
+}
+
+#content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content ul{
+    text-align: center;
+    margin: 0px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 3px solid #2e2e2e;
+    padding: 5px;
+    width: 400px;
+    box-shadow:0px 0px 20px lightgreen ;
+    margin: 0 auto;
+}
+
+header h1{
+    color: #212a3f;
+    font-size: 45px;
+}
+header p{
+    color:#434f5b;
+}
+#topnav{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#434f5b;
+    font-size: 30px;
+    text-transform: lowercase;
+    width: 415px;
+    margin: 0 auto;
+}
+#topnav ul{
+    padding: 20px 15px;
+    margin: 0px;
+    text-align: center;
+}
+#topnav ul li{
+    list-style-type: none;
+    display: inline;
+}
+#topnav ul li a{
+    text-decoration: none;
+    margin:0px 5px;
+    padding:5px;
+    color:#f2f2f2
+}
+#topnav ul li a:hover{
+    border-bottom: 3px solid #f2f2f2;
+    transition: 50ms linear 0sec;
+    -webkit-animation: 50ms linear 0s;
+    -moz-animation: 50ms linear 0s;
+}
+
+#img1{
+    padding-bottom: 5px;
+}
+#img2{
+    padding-bottom: 5px;
+}
+#img3{
+    padding-bottom: 5px;
+}
+#img4{
+    padding-bottom: 5px;
+}
+footer{
+    border-top: 10px solid #434f5b;
+    margin: 0 auto;
+}
+footer p{
+    padding-top: 5px;
+    padding-bottom:5px ;
+    float: right;
+
+}
+.footernav{
+    padding-top: 5px;
+    padding-left: 0;
+    float: left;
+}
+.footernav ul{
+    margin: 0;
+    padding: 0;
+}
+.footer ul, li{
+    list-style-type: none;
+    display: inline;
+}
+.footernav ul, li, a:link, .footernav ul, li a:visited{
+    text-decoration: none;
+    padding: 10px;
+    color: #212a3f;
+    text-transform: lowercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footera:hover{
+    border-right: 3px solid lightskyblue ;
+}
